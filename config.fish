@@ -39,6 +39,11 @@ if [ -f $HOME/.config/fish/git.fish ]
     source $HOME/.config/fish/git.fish
 end
 
+# abbreviation
+if [ -f $HOME/.config/fish/abbreviation.fish ]
+    source $HOME/.config/fish/abbreviation.fish
+end
+
 # Aliases
 if [ -f $HOME/.config/fish/alias.fish ]
     source $HOME/.config/fish/alias.fish

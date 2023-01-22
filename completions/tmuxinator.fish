@@ -13,8 +13,11 @@ end
 function __fish_tmuxinator_using_command
   set cmd (commandline -opc)
   if [ (count $cmd) -gt 1 ]
-    if [ "start" = $cmd[2] ] || [ "stop" = $cmd[2] ]
-      return 0
+
+    for COMMAND in [ "start" "stop" "edit" "open" ]
+        if [ $COMMAND = $cmd[2] ]
+            return 0
+        end
     end
   end
   return 1

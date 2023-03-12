@@ -1,5 +1,6 @@
 
 abbr --add n nvim
+abbr --add f fish
 
 abbr --add g git
 abbr --add ga git add
@@ -24,4 +25,5 @@ abbr --add cm cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..
 
 
 abbr --add sf source ~/.config/fish/config.fish
+
 

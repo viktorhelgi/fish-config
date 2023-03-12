@@ -3,7 +3,7 @@
 bind \ce forward-word
 bind \cb backward-word
 
-bind \$ end-of-line
+# bind \$ end-of-line
 
 # set -g fish_key_bindings fish_vi_key_bindings
 # bind -M insert \cc kill-whole-line repaint */

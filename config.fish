@@ -71,8 +71,8 @@ set -U fish_user_paths $HOME/.bin $HOME/.local/bin $HOME/Applications $fish_user
 #end
 
 # sets tools
-set -x EDITOR /usr/bin/nvim
-set -x VISUAL /usr/bin/nvim
+set -x EDITOR /usr/local/bin/nvim
+set -x VISUAL /usr/local/bin/nvim
 #set -x TERM alacritty
 # Sets the terminal type for proper colors
 set TERM "xterm-256color"

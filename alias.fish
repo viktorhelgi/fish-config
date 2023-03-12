@@ -11,6 +11,7 @@ alias nvim='nvim --startuptime /tmp/nvim-startuptime'
 alias set-keyboard-configs='setxkbmap theVimmer -option caps:ctrl_modifier -option altwin:swap_lalt_lwin && xset r rate 200 30'
 alias so-aliases='source ~/.config/fish/alias.fish'
 
+alias ls='exa'
 
 
 set value \
@@ -24,7 +25,6 @@ for val in $value
         source $path
     end
 end
-
 
 
 
